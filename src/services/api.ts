@@ -1,4 +1,4 @@
-const API_BASE_URL = "https://spring-daw-backend.onrender.com/api";
+const API_BASE_URL = "https://spring-daw-backend.onrender.com/api/v1";
 
 export class ApiError extends Error {
     constructor(
