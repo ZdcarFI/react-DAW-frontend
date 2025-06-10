@@ -1,4 +1,4 @@
-const API_BASE_URL = process.env.BACKEND_API_BASE_URL ||'http://localhost:9191/api/v1';
+const API_BASE_URL = "https://spring-daw-backend.onrender.com/api";
 
 export class ApiError extends Error {
     constructor(
